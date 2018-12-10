@@ -8,6 +8,8 @@ OUT=$(readlink -f $OUTPUT_DIR)
 
 echo "---> Generating HTML from Asciidoc..."
 
+echo "HAALLOOOOO"
+
 cd /tmp/src/$ADOC_DIR
 FILES=`ls *.adoc *.asciidoc`
 for adoc_file in $FILES

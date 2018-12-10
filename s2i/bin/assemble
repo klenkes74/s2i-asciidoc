@@ -1,10 +1,6 @@
 #!/bin/bash
 
 
-cat /usr/libexec/s2i/assemble
-
-exit 1
-
 ADOC_DIR=${ADOC_DIR:-adoc}
 OUTPUT_DIR=${OUTPUT_DIR:-html}
 ASCIIDOCTOR_OPTIONS=${ASCIIDOCTOR_OPTIONS:--t}
